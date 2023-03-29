@@ -59,6 +59,25 @@
     text-decoration: underline;
 }
 
+.form-hero {
+    width: 100%;
+    justify-content: center;
+}
+.form-hero > .input {
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.form.form-hero ::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+/* 
+.form.form-hero :focus-visible {
+    outline:hidden;
+} */
+
 .main-content .form .btn {
     margin-left: auto;
 }
