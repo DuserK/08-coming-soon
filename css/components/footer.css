@@ -6,9 +6,11 @@
     margin-bottom: 40px;
 }
 .footer .socials{
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
     gap: 10px;
     padding: 10px;
     margin-bottom: 40px;
@@ -29,6 +31,16 @@
 .footer .socials .social:hover {
     color: #03a9f4;
     background-color: #fff;
+}
+
+.footer .row {
+    position: relative;
+}
+
+.back-to-top {
+    position: absolute;
+    top: -1em;
+    right: -1em;
 }
 .footer .short-row {
     display: flex;
@@ -69,6 +81,9 @@
         flex-direction: column;
     }
     .footer .trio p + p::before {
+        display: none;
+    }
+    .back-to-top {
         display: none;
     }
 }
